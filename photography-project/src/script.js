@@ -63,13 +63,13 @@
 	});
 
 	
-	//Wildlife portfolio page
+	//marriage portfolio page
 	
-	$(".wildlife").on('click', function () {
-		$("body").addClass("wildlife-on");
+	$(".marriage").on('click', function () {
+		$("body").addClass("marriage-on");
 	});
-	$(".wildlife-close").on('click', function () {
-		$("body").removeClass("wildlife-on");
+	$(".marriage-close").on('click', function () {
+		$("body").removeClass("marriage-on");
 	});
 
 	

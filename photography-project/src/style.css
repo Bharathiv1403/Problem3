@@ -179,7 +179,7 @@ body.travel-on .hero-section {
 	-webkit-transition-delay: 0ms;
 	transition-delay: 0ms;
 }
-body.wildlife-on .hero-section {
+body.marriage-on .hero-section {
 	transform: rotateX(-10deg);
 	-webkit-transition-delay: 0ms;
 	transition-delay: 0ms;
@@ -396,7 +396,7 @@ body.contact-on .contact-section {
 }
 
 .travel-section,
-.wildlife-section,
+.marriage-section,
 .nature-section {
     position: fixed;
 	top: 100%;
@@ -413,7 +413,7 @@ body.contact-on .contact-section {
 	z-index: 10;
 }
 .travel-close,
-.wildlife-close,
+.marriage-close,
 .nature-close {
     position: absolute;
 	top: 20px;
@@ -432,7 +432,7 @@ body.contact-on .contact-section {
 	z-index: 11;
 }
 .travel-close:hover,
-.wildlife-close:hover,
+.marriage-close:hover,
 .nature-close:hover {
     transform: rotate(90deg);
 }
@@ -441,7 +441,7 @@ body.travel-on .travel-section {
 	-webkit-transition-delay: 400ms;
 	transition-delay: 400ms;
 }
-body.wildlife-on .wildlife-section {
+body.marriage-on .marriage-section {
 	top: 0;
 	-webkit-transition-delay: 400ms;
 	transition-delay: 400ms;
@@ -452,7 +452,7 @@ body.nature-on .nature-section {
 	transition-delay: 400ms;
 }
 .travel-section img,
-.wildlife-section img,
+.marriage-section img,
 .nature-section img {
 	margin-top: 30px;
     width: 100%;
@@ -462,7 +462,7 @@ body.nature-on .nature-section {
 	box-shadow: 0 0 20px rgba(0,0,0,0.4);
 }
 .travel-section h3,
-.wildlife-section h3,
+.marriage-section h3,
 .nature-section h3 {
 	font-size: 44px;
 	line-height: 1.3;
@@ -471,14 +471,14 @@ body.nature-on .nature-section {
 	color: #fff;
 }
 .travel-section p,
-.wildlife-section p,
+.marriage-section p,
 .nature-section p {
 	font-size: 14px;
 	line-height: 1.7;
 	letter-spacing: 1px;
 }
 .travel-section p span,
-.wildlife-section p span,
+.marriage-section p span,
 .nature-section p span {
 	font-size: 20px;
 	line-height: 1.3;
