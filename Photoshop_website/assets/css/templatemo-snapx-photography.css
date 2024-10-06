@@ -258,7 +258,7 @@ Header Style
 }
 
 .header-area .main-nav {
-  min-height: 80px;
+  min-height: 20px;
   background: transparent;
   display: flex
 }
@@ -273,16 +273,16 @@ Header Style
 }
 
 .header-area .main-nav .logo img {
-  max-width: 142px;
+  max-width: 70px;
 }
 
 .background-header .main-nav .logo {
-  width: 142px;
+  width: 100%;
 }
 
 .header-area .main-nav .nav {
   flex-basis: 60%;
-  height: 70px;
+  height: 60px;
   margin-top: 0px;
   margin-right: 0px;
   -webkit-transition: all 0.3s ease 0s;
