@@ -99,7 +99,7 @@ $(document).ready(function() {
         cursorElements.forEach(cursor => {
 			//  console.log(cursor,100);
 			  if (cursor) {
-				
+		
 				  cursor.style.left = event.clientX + "px";
 				  cursor.style.top = event.clientY + "px";
 			  }
@@ -113,7 +113,6 @@ $(document).ready(function() {
 
     function addHoverClass() {
 		//  console.log(e,115);
-		 
         e.classList.add("hover");
         i.classList.add("hover");
     }
@@ -176,6 +175,20 @@ $(document).ready(function() {
     $(".nature-close").on('click', function() {
         $("body").removeClass("nature-on");
     });
+   $(".getposts").on('click',function() {
+    
+       const apiUrl = 'https://jsonplaceholder.typicode.com/posts';
+   
+       $.get(apiUrl)
+           .done(function(data) {
+               $('#result').html(JSON.stringify(data, null, 2));
+           })
+           .fail(function() {
+               $('#result').html('Error fetching data.');
+           });
+   
+   })
+    
 
 });
 
